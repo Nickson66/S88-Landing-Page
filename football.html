@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Football Betting Guide | Starbucks88</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; color: #fff; line-height: 1.8; background: #1a2e1a; }
+    .wrap { max-width: 860px; margin: 0 auto; padding: 0 24px; }
+    header { background: #0d1f0d; border-bottom: 1px solid #2a3a2a; padding: 14px 0; position: sticky; top: 0; z-index: 10; }
+    .header-row { display: flex; justify-content: space-between; align-items: center; max-width: 1120px; margin: 0 auto; padding: 0 24px; }
+    .logo img { height: 52px; }
+    nav a { margin-left: 22px; text-decoration: none; color: #eee; font-size: 13px; }
+    .btn { background: #00c853; color: #fff; padding: 12px 24px; border-radius: 4px; text-decoration: none; font-size: 14px; }
+    .hero-banner { background: linear-gradient(135deg, #1a5c1a, #2e7d32); color: #fff; padding: 48px 24px; text-align: center; }
+    .hero-banner h1 { font-size: 32px; margin-bottom: 8px; }
+    .content { background: #0d1f0d; padding: 32px; margin: -20px 24px 24px; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.06); }
+    h2 { color: #00c853; margin: 28px 0 12px; font-size: 20px; }
+    p { margin-bottom: 14px; }
+    .tabs { display: flex; gap: 8px; margin: 20px 0; flex-wrap: wrap; }
+    .tab { padding: 8px 16px; background: #1a2e1a; border-radius: 4px; cursor: pointer; font-size: 14px; }
+    .tab.active { background: #00c853; color: #fff; }
+    .tab-content { display: none; padding: 16px; background: #1a2e1a; border-radius: 6px; margin-bottom: 16px; }
+    .tab-content.active { display: block; }
+    .accordion { border: 1px solid #2a3a2a; border-radius: 6px; margin: 8px 0; }
+    .accordion-header { padding: 14px 16px; cursor: pointer; display: flex; justify-content: space-between; font-weight: 500; }
+    .accordion-body { display: none; padding: 0 16px 14px; color: #ccc; font-size: 14px; }
+    .accordion.open .accordion-body { display: block; }
+    .stat-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; margin: 20px 0; }
+    .stat { background: #0d1f0d8f5; padding: 16px; border-radius: 6px; text-align: center; }
+    .stat strong { display: block; font-size: 20px; color: #00c853; }
+    .tip { background: #1a3a1a; border-left: 3px solid #00c853; padding: 14px; margin: 16px 0; font-size: 14px; color: #fff; }
+    footer { text-align: center; padding: 24px; color: #888; font-size: 13px; }
+  </style>
+</head>
+<body>
+<header>
+  <div class="header-row">
+    <div class="logo"><img src="https://static.gwvkyk.com/media/fd45bbb9f45961e588bea.png" alt="Starbucks88"></div>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="sportsbook.html">Sportsbook</a>
+      <a href="https://s88.network" class="btn">Register</a>
+    </nav>
+  </div>
+</header>
+<div class="hero-banner">
+  <h1>Football Betting</h1>
+  <p>Pre-match and live markets on major leagues</p>
+</div>
+<div class="wrap">
+  <div class="content">
+    <div class="stat-grid">
+      <div class="stat"><strong>Pre-Match</strong>And live</div>
+      <div class="stat"><strong>Multiple</strong>Markets</div>
+      <div class="stat"><strong>Browser</strong>No app</div>
+    </div>
+    <h2>Football Markets</h2>
+    <p>Starbucks88 covers major leagues and competitions. Markets include match result, Asian handicap, over/under, and both teams to score. Availability varies by fixture.</p>
+    <h2>Market Guide</h2>
+    <div class="tabs">
+      <div class="tab active" onclick="showTab('result')">Match Result</div>
+      <div class="tab" onclick="showTab('handicap')">Handicap</div>
+      <div class="tab" onclick="showTab('live')">Live Betting</div>
+    </div>
+    <div id="result" class="tab-content active">
+      <p>Three outcomes: home win, draw, away win. Also called 1X2. Odds reflect the probability of each outcome.</p>
+    </div>
+    <div id="handicap" class="tab-content">
+      <p>Asian handicap eliminates the draw by giving one side a goal advantage or deficit. -0.5 means the favourite must win. +0.5 means the underdog wins or draws.</p>
+    </div>
+    <div id="live" class="tab-content">
+      <p>Live markets update during the match. Odds change with score and time. A stable connection is recommended. The betting window is shorter than pre-match.</p>
+    </div>
+    <h2>FAQ</h2>
+    <div class="accordion">
+      <div class="accordion-header" onclick="toggleAcc(this)">What is Asian handicap? <span>+</span></div>
+      <div class="accordion-body">A market that removes the draw by applying a goal advantage or deficit to one team.</div>
+    </div>
+    <div class="accordion">
+      <div class="accordion-header" onclick="toggleAcc(this)">Can I bet live? <span>+</span></div>
+      <div class="accordion-body">Yes. Live betting is available on most matches. Odds update in real time.</div>
+    </div>
+    <div class="tip"><strong>Tip:</strong> Review market rules before betting. Settlement conditions vary by market type.</div>
+    <a href="https://s88.network" class="btn" style="margin-top:20px;">Bet on Football</a>
+  </div>
+</div>
+<footer>© 2019-2026 Starbucks88. Play responsibly. 18+</footer>
+<script>
+function showTab(id) {
+  document.querySelectorAll('.tab-content').forEach(t => t.classList.remove('active'));
+  document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
+  document.getElementById(id).classList.add('active');
+  event.target.classList.add('active');
+}
+function toggleAcc(el) { el.parentElement.classList.toggle('open'); }
+</script>
+</body>
+</html>
